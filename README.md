@@ -33,9 +33,9 @@ This project demonstrates the process of building, hosting, and deploying a cont
    - Stored the background image in a private S3 bucket.
    - Configured a service account with permissions to access the S3 bucket via IRSA.
 
-5. **Scaling and Automation **:
+5. **Scaling and Automation**:
    - Implemented Horizontal Pod Autoscaling (HPA) based on traffic load.
-   - Automated deployments using Flux (Bonus feature).
+   - Automated deployments using Flux .
 
 6. **Application Updates**:
    - Demonstrated dynamic updates by replacing the background image in S3 and updating the ConfigMap to reflect the new image in the browser.
