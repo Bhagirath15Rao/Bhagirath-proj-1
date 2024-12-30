@@ -11,7 +11,7 @@ This project demonstrates the process of building, hosting, and deploying a cont
 - **Persistent Storage**: MySQL data is stored using Amazon EBS persistent volumes, ensuring data durability.
 - **Kubernetes (EKS)**: The application is deployed to an Amazon EKS cluster with 2 worker nodes, using Kubernetes manifests to create resources such as ConfigMaps, Secrets, PersistentVolumeClaims, Deployments, and Services.
 - **IAM Roles**: IAM Roles for Service Accounts (IRSA) are used to grant the application access to the private S3 bucket.
-- **Auto-scaling **: Horizontal Pod Autoscaling (HPA) is implemented to automatically scale the application based on traffic load.
+- **Auto-scaling**: Horizontal Pod Autoscaling (HPA) is implemented to automatically scale the application based on traffic load.
 
 ### Steps Taken:
 1. **Enhancement of Flask Application**:
